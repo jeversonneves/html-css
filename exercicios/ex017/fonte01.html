@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+        * Medidas Absolutas::
+        * cm, mm, in, px, pt, pc
+        *
+        * Medidas Relativas: 
+        * em, ex, rem, vw, vh, %
+        16px geralmente = 1em
+        */
+            font-size: 1em;
+            /* 
+            font-weight: lighter;
+            font-style: italic;
+            text-decoration: underline; 
+            * weight= Peso
+            * lighter normal bold bolder 
+            */
+        }
+        h1 {
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Word Sans', sans-serif;
+            font-size: 3em;
+            font-style: italic;
+            font-weight: bolder
+            */
+
+            font: italic bolder 3em 'Word Sans', sans-serif;
+        
+        }
+        h2 {
+            font: bold 2em 'Works Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum ullam hic facilis eligendi. Exercitationem obcaecati eos adipisci itaque, eveniet nulla autem hic totam saepe minima modi, repellat qui nisi?. Fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem doloribus tempora praesentium itaque eos quibusdam. Exercitationem dolores architecto molestiae laborum reiciendis ullam sapiente nesciunt dignissimos ad. Ducimus similique magni error?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae excepturi repellendus facilis quidem tempora exercitationem omnis illo maxime minus labore? Dolore autem cupiditate laboriosam laborum quas perferendis iure in hic.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sunt labore optio totam a eos explicabo nihil dolorem consequuntur ullam, animi consectetur, amet voluptas blanditiis vero, hic quas iste doloremque?. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, harum sed cum soluta consequatur veritatis est reiciendis. Aliquam at laborum tempore commodi rem! Dolore asperiores earum aliquam explicabo? Soluta, rem.</p>
+</body>
+</html>
